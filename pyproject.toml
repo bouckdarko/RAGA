@@ -1,0 +1,26 @@
+# pyproject.toml
+
+# Configuration pour le système de construction (build backend)
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+# Métadonnées de base du projet
+[project]
+name = "RAGA"
+version = "0.1.0"
+description = "Projet RAGA, permettant des interactions entre des fichiers Excels."
+authors = ["Bouck Darko <bouck.darko@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/bouckdarko/RAGA"
+
+# Dépendances (ajoutez celles dont vous avez besoin)
+[project.dependencies]
+python = ">=3.8"
+
+# Scripts (si vous avez des scripts à exécuter)
+#[project.scripts]
+#mon_script = "raga.mon_module:fonction_principale"
+
+# Vous pouvez également ajouter d'autres métadonnées comme classifiers, keywords, etc.
